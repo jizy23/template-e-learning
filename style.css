@@ -1,0 +1,104 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cyan: #06BBCC;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+
+.text-cyan{
+    color: var(--cyan);
+}
+
+.bg-cyan{
+    background-color: var(--cyan);
+}
+
+
+/* navbar */
+.navHeight{
+    height: 50px;
+}
+
+.navbar-brand:hover{
+    color: var(--cyan);
+}
+
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: var(--cyan);
+}
+
+.btn-outline-success{
+    --bs-btn-color: var(--light);
+    --bs-btn-bg: var(--cyan);
+    --bs-btn-border-color: var(--cyan);
+    --bs-btn-border-radius: none;
+
+    --bs-btn-line-height: 2.5;
+    --bs-btn-font-weight: bold;
+    
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #06bbccc8;
+    --bs-btn-hover-border-color:  #06bbccc8;
+    
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--cyan);
+    --bs-btn-active-border-color: var(--cyan);
+}
+
+
+/* header */
+.carousel-height{
+    height: 100vh;
+}
+
+.carousel-image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3); 
+}
+
+.carousel-title{
+    font-size: 50px;
+}
+
+.btn-read{
+    background-color: var(--cyan);
+    color: #fff;
+    border-radius: 0%;
+    height: 50px;
+    width: 175px;
+}
+.btn-read:hover{
+    background-color: var(--cyan);
+    color: #fff;
+}
+
+.btn-join{
+    background-color: #fff;
+    color: black;
+    border-radius: 0%;
+    height: 50px;
+    width: 175px;
+    display: inline;
+}
+.btn-join:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+
+
+
