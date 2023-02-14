@@ -17,80 +17,72 @@
 </head>
 <body>
   
-  <div class="container-fluid vh-100 m-0 p-0">
+  <div class="container-fluid m-0 p-0">
     
     <!-- navbar -->
-    <div class="container navHeight">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-2">
-        <div class="container-fluid text-uppercase">
-          <a class="navbar-brand fs-2 ms-3 text-cyan" href="#">
-            <i class="fa-solid fa-book me-2"></i>
-            <strong><span class="text-lowercase">e</span>Learning</a></strong>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid text-uppercase">
+        <a class="navbar-brand fs-2 ms-3 text-cyan" href="#">
+          <i class="fa-solid fa-book me-2"></i>
+          <strong><span class="text-lowercase">e</span>Learning</a></strong>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-cyan"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link text-cyan" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item me-3 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#">404 Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-success ps-5 pe-5" type="submit">Join Now
+              <i class="fa-solid fa-arrow-right ms-1"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav d-flex ms-auto">
-                <li class="nav-item me-3">
-                  <a class="nav-link text-cyan" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item me-3">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item me-3">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item me-3 dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Our Team</a></li>
-                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
-                    <li><a class="dropdown-item" href="#">404 Page</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item me-3">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-              <button class="btn btn-outline-success ps-5 pe-5" type="submit">Join Now
-                <i class="fa-solid fa-arrow-right ms-1"></i>
-              </button>
-            </div>
           </div>
-        </nav>
-    </div>
-      <!-- end navbar -->
-      
-      
-      <!-- header -->
-      <header class="vh-100 mt-3">
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- header -->
+    <header class="container-fluid p-0">
         <div id="carousel-learning" class="carousel slide">
           <div class="carousel-inner">
-            <div class="carousel-item active carousel-height">
+            <div class="carousel-item active">
               <img src="./img/carousel-1.jpg" class="d-block w-100 carousel-image" alt="...">
-              <div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start carousel-height ps-5 pe-5">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start ps-5 pe-5">
                 <p class="text-uppercase text-cyan fw-bold fs-5">Best online courses</p>
                 <h2 class="fw-bold carousel-title">The Best Online Learning Platform</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius vitae dolores corrupti numquam quam cum officia provident asperiores nisi culpa reiciendis eligendi fuga esse hic, impedit aut laboriosam ullam?</p>
-                <div class="d-flex mt-3">
-                  <button class="btn btn-read fw-bold me-4" type="submit">Read More</button>
-                  <button class="btn btn-join fw-bold" type="submit">Join us</button>
+                <p>Lorem ipsum dolor sit amet elit. Expedita eius vitae dolores corrupti numquam quam cum officia provident asperiores nisi culpa reiciendis eligendi fuga esse hic, impedit aut laboriosam ullam?</p>
+                <div class="d-flex mt-3 btn-main">
+                  <button class="btn btn-read fw-bold me-4 mt-3" type="submit">Read More</button>
+                  <button class="btn btn-join fw-bold mt-3" type="submit">Join us</button>
                 </div>
               </div>
             </div>
-
-
-
-
-            <div class="carousel-item carousel-height">
+            <div class="carousel-item">
               <img src="./img/carousel-2.jpg" class="d-block w-100 carousel-image" alt="...">
-              <div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start carousel-height ps-5 pe-5">
+              <div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start ps-5 pe-5">
                 <p class="text-uppercase text-cyan fw-bold fs-5">Best online courses</p>
                 <h2 class=" fw-bold carousel-title">Get Educated Online From Your Home</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eius vitae dolores corrupti numquam quam cum officia provident asperiores nisi culpa reiciendis eligendi fuga esse hic, impedit aut laboriosam ullam?</p>
-                <div class="d-flex mt-3">
-                  <button class="btn btn-read fw-bold me-4" type="submit">Read More</button>
-                  <button class="btn btn-join fw-bold" type="submit">Join us</button>
+                <div class="d-flex mt-3 btn-main">
+                  <button class="btn btn-read fw-bold me-4 mt-3 " type="submit">Read More</button>
+                  <button class="btn btn-join fw-bold mt-3" type="submit">Join us</button>
                 </div>
             </div>            
             </div>
@@ -104,25 +96,97 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </header>
-      <!-- end header -->
+    </header>
+    <!-- end header -->
+
+
+    
+      <!-- section1 -->
+    <section class="container-fluid mt-5 mb-5">
+
+        <div class="row container-fluid p-0 m-0 mt-5 mb-5">
+          <div class="col-12 container-fluid p-0 m-0 d-flex row justify-content-center align-items-center">
+            <div class="box text-center d-flex row align-items-center">
+              <i class="fa-solid fa-graduation-cap fs-3 text-cyan color-logo"></i>
+              <h5 class="fw-bold">Skilled Instructors</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing, upiditate doloremque magni.</p>
+            </div>
+            <div class="box text-center d-flex row align-items-center">
+              <i class="fa-solid fa-globe fs-3 text-cyan color-logo"></i>
+              <h5 class="fw-bold">Online Classes</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing, upiditate doloremque magni.</p>
+            </div>
+            <div class="box text-center d-flex row align-items-center">
+              <i class="fa-solid fa-house-chimney fs-3 text-cyan color-logo"></i>
+              <h5 class="fw-bold">Home Projects</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing, upiditate doloremque magni.</p>
+            </div>
+            <div class="box text-center d-flex row align-items-center">
+              <i class="fa-solid fa-book-open fs-3 text-cyan color-logo"></i>
+              <h5 class="fw-bold">Book Library</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing, upiditate doloremque magni.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row container-fluid p-0 m-0 mt-5 mb-5">
+          <div class="col-12 col-md-6 container-fluid p-0 m-0">
+            <div class="img-box">
+              <img src="./img/about.jpg" alt="" class="img-fluid mb-4">
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="text-uppercase text-cyan fw-bold">About us</p>
+            <h2 class="fw-bold mb-4">Welcome to e<span class="text-uppercase">learning</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates asperiores velit atque ipsum molestiae est nemo temporibus harum sint.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, reprehenderit. Nostrum alias eligendi earum nihil libero accusamus consectetur sed praesentium ad eius. Corporis reprehenderit reiciendis sunt numquam, magnam maiores at quos?</p>
+
+            <div class="d-flex justify-content-start mt-4 mb-4">
+
+              <ul class="list-learning me-5">
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>Skilled Instructors</li>
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>International Certificate</li>
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>Online Classes</li>
+              </ul>
+
+
+              <ul class="list-learning ms-4">
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>Online Classes</li>
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>Skilled Instructors</li>
+                <li><i class="fa-solid fa-arrow-right text-cyan me-2"></i>International Certificate</li>
+              </ul>
+
+
+
+            </div>
+
+
+            <button class="btn btn-read fw-bold me-4 mt-3" type="submit">Read More</button>
+
+          </div>
+
+        </div>
+
+    </section>
+      <!-- end section1 -->
+      
+      
+      
+      
+      
       
 
       
-      
-      
-      
-      
-      
-      
-      
-      
-    </div>
-    
-    
-    
+
+
+
+
+
+  </div>
     
     <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
-  </html>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

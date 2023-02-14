@@ -12,25 +12,15 @@ body{
     --light: #F0FBFC;
     --dark: #181d38;
 }
-
 .text-cyan{
     color: var(--cyan);
 }
 
-.bg-cyan{
-    background-color: var(--cyan);
-}
-
 
 /* navbar */
-.navHeight{
-    height: 50px;
-}
-
 .navbar-brand:hover{
     color: var(--cyan);
 }
-
 .nav-link{
     font-weight: bold;
 }
@@ -56,21 +46,31 @@ body{
     --bs-btn-active-border-color: var(--cyan);
 }
 
-
-/* header */
-.carousel-height{
-    height: 100vh;
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: 2px solid var(--cyan);
+    border-radius: 0;
+    transition: var(--bs-navbar-toggler-transition);
 }
 
+
+
+/* header */
 .carousel-image{
     height: 100%;
     object-fit: cover;
     filter: brightness(0.3); 
 }
-
 .carousel-title{
     font-size: 50px;
 }
+.carousel-caption{
+    min-height: 100%;
+ } 
 
 .btn-read{
     background-color: var(--cyan);
@@ -82,8 +82,13 @@ body{
 .btn-read:hover{
     background-color: var(--cyan);
     color: #fff;
+    transform: scale(1.1);
 }
 
+.btn-main{
+    display:flex;
+    flex-wrap: wrap;
+}
 .btn-join{
     background-color: #fff;
     color: black;
@@ -95,10 +100,44 @@ body{
 .btn-join:hover{
     background-color: #fff;
     color: black;
+    transform: scale(1.1);
 }
 
 
 
+
+/* section1 */
+.box{
+    height: 250px;
+    width: 270px;
+    background-color: #06bbcc2f;
+    border: 2px solid #06bbcc2f;
+    margin: 30px;
+    padding: 15px;
+}
+.box:hover{
+    color: var(--light);
+    background-color: var(--cyan);    
+}
+.color-logo:hover{
+    color: var(--light);
+}
+
+/* .img-box{
+    height: 10px;
+    margin: 2px solid black;
+} */
+
+.img-fluid{
+    max-width: 100;
+    height: auto;
+}
+
+.list-learning{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 
 
