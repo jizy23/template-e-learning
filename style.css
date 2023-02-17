@@ -12,15 +12,19 @@ body{
     --light: #F0FBFC;
     --dark: #181d38;
 }
+
 .text-cyan{
     color: var(--cyan);
 }
+
+
 
 
 /* navbar */
 .navbar-brand:hover{
     color: var(--cyan);
 }
+
 .nav-link{
     font-weight: bold;
 }
@@ -33,14 +37,11 @@ body{
     --bs-btn-bg: var(--cyan);
     --bs-btn-border-color: var(--cyan);
     --bs-btn-border-radius: none;
-
     --bs-btn-line-height: 2.5;
     --bs-btn-font-weight: bold;
-    
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #06bbccc8;
     --bs-btn-hover-border-color:  #06bbccc8;
-    
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: var(--cyan);
     --bs-btn-active-border-color: var(--cyan);
@@ -59,6 +60,7 @@ body{
 
 
 
+
 /* header */
 .carousel-image{
     height: 100%;
@@ -68,9 +70,11 @@ body{
 .carousel-title{
     font-size: 50px;
 }
-.carousel-caption{
-    min-height: 100%;
- } 
+
+.btn-main{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 .btn-read{
     background-color: var(--cyan);
@@ -85,10 +89,6 @@ body{
     transform: scale(1.1);
 }
 
-.btn-main{
-    display:flex;
-    flex-wrap: wrap;
-}
 .btn-join{
     background-color: #fff;
     color: black;
@@ -110,27 +110,18 @@ body{
 .box{
     height: 250px;
     width: 270px;
-    background-color: #06bbcc2f;
-    border: 2px solid #06bbcc2f;
-    margin: 30px;
+    background-color: #87dee62f;
+    border: 2px solid #87dee62f;
+    margin: 20px;
     padding: 15px;
 }
 .box:hover{
     color: var(--light);
     background-color: var(--cyan);    
 }
+
 .color-logo:hover{
     color: var(--light);
-}
-
-/* .img-box{
-    height: 10px;
-    margin: 2px solid black;
-} */
-
-.img-fluid{
-    max-width: 100;
-    height: auto;
 }
 
 .list-learning{
@@ -141,3 +132,16 @@ body{
 
 
 
+
+/* media queries */
+@media screen and (max-width: 991.98px) {
+
+    .btn-joinNow{
+        display: none;
+    }
+
+    .btn-readMore{
+        margin-left: 25%;
+    }
+
+}
