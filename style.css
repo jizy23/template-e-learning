@@ -133,6 +133,14 @@ body{
 
 
 
+/* section 2 */
+.img-fluid{
+    margin: 8px;
+}
+
+
+
+
 /* media queries */
 @media screen and (max-width: 991.98px) {
 
